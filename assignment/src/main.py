@@ -4,43 +4,31 @@ from lxml import html
 import dotenv
 import os
 import datetime
+import matplotlib.pyplot as plt
 
 from scraping_utils import get_url, parse
 
 # load the environment variables
 dotenv.load_dotenv()
 
-# year = int(os.getenv('YEAR', 2024))
-# filename = os.getenv('FILENAME', "crawled-page-{year}.html").format(year=year)
 filename = './crawled-page.html'
 data = []
 
-# check if the page exists
-if not os.path.exists(filename):
-
-    # fetch the page if it doesn't exist
-    page = requests.get(os.getenv('URL'), verify=False)
-
-    # save the page to a file
-    with open(filename, 'w', encoding='UTF8') as f:
-        f.write(page.text)
-
-    page = page.text
-
-else:
-    # if the page exists, read it from the file
-    with open(filename, 'r', encoding='UTF8') as f:
-        page = f.read()
+# get page
+page = get_url(os.getenv('URL'), filename)
 
 # parse the page to html
 tree = parse(page, 'html')
 
-# get the desired sections
+# get tables from the desired sections
 tables = tree.xpath(os.getenv('TABLE_XPATH'))
 tables = tables[3:18]
 
 #get data in table
 table_contents = [table.text_content() for table in tables]
+
+#global variables to hold data
+dog_data = []
 
 #access data in table rows
 for table in tables:
@@ -52,9 +40,17 @@ for table in tables:
         dog_row_contents = item.xpath(os.getenv('ROW_DATA_XPATH'))
         for content in dog_row_contents:
             data = str(content.text_content()).strip()
+            if data == "Dogs":
+                continue
+            else:
+                dog_data.append(data)
             print(data)
             
 #TODO: plot dog data
+print(dog_data)
+#create plot
+fig, ax = plt.subplots()
+plt.show()
 
 # print the rows
 # row_num = 3
