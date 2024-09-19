@@ -5,6 +5,8 @@ import dotenv
 import os
 import datetime
 
+from scraping_utils import get_url, parse
+
 # load the environment variables
 dotenv.load_dotenv()
 
@@ -31,7 +33,7 @@ else:
         page = f.read()
 
 # parse the page to html
-tree = html.fromstring(page)
+tree = parse(page, 'html')
 
 # get the desired sections
 tables = tree.xpath(os.getenv('TABLE_XPATH'))
