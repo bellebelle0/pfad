@@ -1,5 +1,4 @@
 import requests
-import certifi
 from lxml import html
 
 import dotenv
@@ -34,12 +33,26 @@ else:
 # parse the page to html
 tree = html.fromstring(page)
 
-# get the rows from the table
-rows = tree.xpath(os.getenv('ROW_XPATH'))
+# get the desired sections
+tables = tree.xpath(os.getenv('TABLE_XPATH'))
+tables = tables[3:18]
 
-table_contents = [row.text_content() for row in rows]
-print(type(table_contents))
+#get data in table
+table_contents = [table.text_content() for table in tables]
 
+#access data in table rows
+for table in tables:
+    # TODO: get other rows
+    dog_row = table.xpath(os.getenv('DOG_ROW_XPATH'))
+    for item in dog_row:
+        # print(item)
+        # print(str(item))
+        dog_row_contents = item.xpath(os.getenv('ROW_DATA_XPATH'))
+        for content in dog_row_contents:
+            data = str(content.text_content()).strip()
+            print(data)
+            
+#TODO: plot dog data
 
 # print the rows
 # row_num = 3
