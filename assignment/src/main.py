@@ -1,9 +1,5 @@
-import requests
-from lxml import html
-
 import dotenv
 import os
-import datetime
 import matplotlib.pyplot as plt
 
 from scraping_utils import get_url, parse
