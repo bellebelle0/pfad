@@ -1,0 +1,99 @@
+{
+    "10": {
+        "card_pair": "Wheel of Fortune/Magician",
+        "card_num": [
+            "10",
+            "01"
+        ],
+        "message": "These birth cards deal with following the cyclic change of the universe and the random hand of fate (The Wheel of Fortune) using the manifestation powers and resourcefulness of the Magician. Wherever the wheel shifts, you will be ready."
+    },
+    "11": {
+        "card_pair": "Justice/High Priestess",
+        "card_num": [
+            "11",
+            "02"
+        ],
+        "message": "Your path unites clarity, fairness and harmony with deep intuitive understanding and knowledge. Justice and the High Priestess are concerned with two different sides in life - the transactional and the spiritual. Your insights tend to go deeply, a powerful compliment with Justice\u2019s objectivity and sharp decision making."
+    },
+    "12": {
+        "card_pair": "Hanged Man/Empress",
+        "card_num": [
+            "12",
+            "03"
+        ],
+        "message": "This path represents gentle progress during moments of delays, and the willful sacrifices of the Hanged Man made with the nurturing care of the Empress. When faced with the Hanged Man\u2019s deliberate choice to remain in his suspension, the love within the empress guides him to continue his spiritual path."
+    },
+    "13": {
+        "card_pair": "Death/Emperor",
+        "card_num": [
+            "13",
+            "04"
+        ],
+        "message": "In this path, the Death card represents the ending of cycles - of closing doors to open others anew. It is here where the Emperor\u2019s power, authority and structure are needed in order to create stability and security. For the new cycle to be ushered in, a strong and willful hand will be needed to steer its movement."
+    },
+    "14": {
+        "card_pair": "Temperance/Hierophant",
+        "card_num": [
+            "14",
+            "05"
+        ],
+        "message": "Your path is one of guidance - of using your great wisdom (The Hierophant) to bring calm and peace to conflict (Temperance). Having these two cards come together is akin to having two great advisors - one bearing the keys to long established knowledge, and the other equipped with the gentle serenity to unify disparate groups."
+    },
+    "15": {
+        "card_pair": "Devil/Lovers",
+        "card_num": [
+            "15",
+            "06"
+        ],
+        "message": "Deep sensuality is indicated by this birth card pair - for the Devil is the combination of both the divine and the beastly. He is playful in the realm of the material, but his pure enjoyment can lead some to be enslaved. The lovers however bring an element of love to his passionate animalistic nature. His beauty in the horror is redeemed."
+    },
+    "16": {
+        "card_pair": "Tower/Chariot",
+        "card_num": [
+            "16",
+            "07"
+        ],
+        "message": "Yours is the path of restoring balance in the face of violent transformation. In the face of groundbreaking change, it is your sense of balance that will be your guide. The Tower destroys foundations and structure ruthlessly in order to reveal a new path forward, but this energy will be guided by the Chariot\u2019s deliberate and careful control of impulses."
+    },
+    "17": {
+        "card_pair": "Star/Strength",
+        "card_num": [
+            "17",
+            "08"
+        ],
+        "message": "This path is one of hope - of the choice to look at all that life brings you with optimism (The Star), requiring of you great inner Strength. Yours is the choice of moving away from sorrow, towards regeneration, which takes great resilience in times of suffering. To have hope is the source of your action, to have Strength is assurance that you will succeed."
+    },
+    "18": {
+        "card_pair": "Moon/Hermit",
+        "card_num": [
+            "18",
+            "09"
+        ],
+        "message": "Your path is about finding the clarity in the darkness, about finding truth in an uncertain world. The Moon presents us with phantoms, dreams and illusions. It is about the hidden facets that are just below the surface. The hermit is the seeker, who uses their internal truth to light the way to finding your own personal wisdom."
+    },
+    "19": {
+        "card_pair": "Sun/Wheel of Fortune/Magician",
+        "card_num": [
+            "19",
+            "10",
+            "01"
+        ],
+        "message": "Like the Wheel and Magician birth cards, this path is about adapting to change, and moving alongside nature\u2019s cycles resourcefully. It is about recognizing and understanding the natural shifts of the universe (The Wheel of Fortune) while using your inner powers of manifestation and creation to move along with those cycles with grace and success (The Magician). The Sun gives an air of contentment, joy and peace to this path, giving you the cue to enjoy the abundance that your path brings you."
+    },
+    "20": {
+        "card_pair": "Judgement/High Priestess",
+        "card_num": [
+            "20",
+            "02"
+        ],
+        "message": "This path is one of breaking limitations, of releasing oneself from established modes of thought, and rebuilding them anew (Judgement). You will be guided by your intuition (The High Priestess), and it is through learning to trust your inner voice that you will create your most important work."
+    },
+    "21": {
+        "card_pair": "World/Empress",
+        "card_num": [
+            "21",
+            "03"
+        ],
+        "message": "Your path is one of self-actualization, to bring together all the disparate parts of yourself in order to feel completely at home in this world (The World). Throughout this path, you will be guided by love - both giving and receiving love (The Empress). This loving and caring aspect within you will be your compass towards fulfillment, and is the gift you give to all others."
+    }
+}
