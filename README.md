@@ -14,9 +14,9 @@ cd pfad/week1/src
 pip install -r requirements.txt
 ```
 
-Assignment 2
+Assignment 3
 ```
-cd assignment2
+cd assignment3
 python interactive.py
 ```
 
