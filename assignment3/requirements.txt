@@ -1,0 +1,4 @@
+json
+opencv-python
+numpy
+asyncio
